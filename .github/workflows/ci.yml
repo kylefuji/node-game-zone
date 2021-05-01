@@ -35,7 +35,7 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          files: ./coverage/lcov-report/index.html # path to report file
+          files: ./coverage/lcov.info # path to report file
           fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)
 
